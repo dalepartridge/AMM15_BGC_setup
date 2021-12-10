@@ -1,0 +1,6 @@
+xarray
+pydap
+lxml
+datetime
+getpass
+

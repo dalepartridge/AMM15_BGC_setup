@@ -1,0 +1,31 @@
+meshfile: mesh_mask.nc
+coordsfile: coordinates.bdy.nc
+y0: 2016
+y1: 2018
+njobs: 8
+grid: T
+variables:
+   nitrate:
+       input_file: woa18/nitrate_woa18-AMM15_LBC.nc
+       output_file: $OUT_DIR/LBC/amm15_bdytrc
+       climatology: T
+   phosphate:
+       input_file: woa18/phosphate_woa18-AMM15_LBC.nc
+       output_file: $OUT_DIR/LBC/amm15_bdytrc
+       climatology: T
+   oxygen:
+       input_file: woa18/oxygen_woa18-AMM15_LBC.nc
+       output_file: $OUT_DIR/LBC/amm15_bdytrc
+       climatology: T
+   silicate:
+       input_file: woa18/silicate_woa18-AMM15_LBC.nc
+       output_file: $OUT_DIR/LBC/amm15_bdytrc
+       climatology: T
+   DIC:
+       input_file: glodap/TCO2_seasonal_glodap-AMM15_LBC.nc
+       output_file: $OUT_DIR/LBC/amm15_bdytrc
+       climatology: T
+   TA: 
+       input_file: glodap/TAlk_seasonal_glodap-AMM15_LBC.nc
+       output_file: $OUT_DIR/LBC/amm15_bdytrc
+       climatology: T

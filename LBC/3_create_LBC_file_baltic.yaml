@@ -1,0 +1,42 @@
+ystart: 2016
+yend: 2018
+coords_file: coordinates.skagbdy.nc
+output_folder: $OUT_DIR/LBC
+monthly: True
+files:
+  amm15_baltic_bdytrc:
+    institution: "Plymouth Marine Laboratory"
+    author: "Dale Partridge"
+    contact: "dapa@pml.ac.uk"
+    grid: T
+    variables:
+        nitrate:
+            depth: 51
+            units: "mmolN m-3"
+            short_name: "nitrate"
+            long_name: "nitrate"
+        phosphate:
+            depth: 51
+            units: "mmolP m-3"
+            short_name: "phosphate"
+            long_name: "phospate"
+        silicate:
+            depth: 51
+            units: "mmolSi m-3"
+            short_name: "silicate"
+            long_name: "silicate"
+        DIC:
+            depth: 51
+            units: "mmolC m-3"
+            short_name: "DIC"
+            long_name: "dissolvd inorganic carbon"
+        TA:
+            depth: 51
+            units: "mmol m-3"
+            short_name: "totalk"
+            long_name: "Total Alkalinity"
+        oxygen:
+            depth: 51
+            units: "mmolO m-3"
+            short_name: "oxygen"
+            long_name: "oxygen"
